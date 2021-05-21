@@ -1,0 +1,1102 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.clear{
+    clear:both;
+}
+.container{
+    width:98%;
+    margin:auto;
+}
+                                            /* navbar */
+nav{
+    width:100%;
+    background-color:#FEEE00;
+    overflow: hidden;
+}
+nav .logo{
+    float:left;
+    padding:1vh 0;
+}
+nav .logo img{
+    width:16vh;
+    height:5vh;
+    cursor:pointer;
+    padding:1vh 0;
+}
+nav .my_input{
+    float:left;
+    margin-top:2.3vh;
+}
+nav .my_input input{
+    width:122vh;
+    height:5vh;
+    border-radius:.6vh;
+    background-color:#fff;
+    border-style: none;
+    padding-left:2vh; 
+}
+nav .arabic{
+    float:left;
+    margin:3.5vh 0 0 3vh;
+}
+nav .arabic p{
+    font-weight:600;
+    font-family: Cairo ;
+    cursor:pointer;
+}
+nav .flag{
+    float:left;
+    margin:3vh 0 0 5vh;
+    width:16vh;
+    cursor:pointer;
+}
+nav .flag :hover{
+    opacity:.5
+}
+nav .flag img{
+    float:left;
+    width:5vh;
+    height:3vh;
+}
+nav .flag p{
+    margin:-1vh 0 0 1vh;
+    float:left;
+    font-size: 14px;
+    font-style: normal;
+}
+nav .flag i{
+    float:left;
+    margin-left:2vh
+}
+nav .sign_in {
+    float:left;
+    cursor:pointer;
+}
+nav .sign_in :hover{
+    opacity: .5;
+}
+nav .sign_in p{
+    font-weight:bold;
+    margin:3vh 0 0 2vh;
+    float:left;
+    font-size: 17px;
+    text-transform: capitalize;  
+}
+nav .sign_in i{
+    margin:3vh 0 0 1.5vh;
+    float:left;
+}
+nav .line{
+    float:left;
+    width:.1vh;
+    height:3.9vh;
+    background-color:black;
+    margin:2.2vh 0 0 2.4vh;
+}
+nav .cart{
+    float:left;
+    cursor:pointer;
+}
+nav .cart :hover{
+    opacity:.5
+}
+nav .cart p{
+    color:black;
+    float:left;
+    margin:3vh 0 0 2vh;
+    font-size:18px;
+    font-weight: bold;
+}
+nav .cart i{
+    margin:3vh 0 0 1.5vh;
+}
+                                                        /* end of navbar */
+                           /* ##################################################################################### */
+                                                        /* accessories */
+.accessories{
+    padding:1vh 0;
+}
+.accessories p{
+    text-transform: uppercase;
+    color:#446FE0;
+    padding:2vh 0;
+    font-weight: bold;
+    font-size: 13px;
+    float:left;
+    cursor: pointer;
+}                                               
+.accessories i{
+    margin:1.5vh 0 0 8vh;
+    color:#446FE0;
+    float:left;
+    cursor: pointer;
+}
+.accessories .line2{
+    width:.1vh;
+    height:5vh;
+    background-color: #E2E5F1;
+    margin:0 0 0 26vh;
+}
+
+.accessories .categories {
+    float:left;
+    list-style: none;
+    margin:-3vh 0 0 10vh;
+    cursor: pointer;
+}
+.accessories .categories li{
+    float:left;
+    margin:0 0 0 3vh;
+    font-size: 13px;
+    font-weight: bold;
+}
+.accessories .categories :hover{
+    cursor:pointer;
+    background-color:yellow;
+}
+.accessories .categories  :last-of-type{
+    color:red;
+    background-color: none;
+}
+                                                    /* end of accessories */
+                                 /* ##################################################################### */
+                                                    /* advertisement */
+.advertisement .add {
+    width:100%;
+    height:40vh;
+    cursor: pointer;
+    
+}
+.advertisement .add img{
+    width:100%;
+    height:40vh;
+    position:relative;
+}
+.advertisement .add .circle1 {
+    position:absolute;
+    top:30vh;
+    left:7vh;
+    width:7vh;
+    height:7vh;
+    border-radius: 3.5vh;
+    background-color:#A6D7D0;
+    float:left;
+}
+.advertisement .add .circle1 i{
+    margin:.5vh 0 0 1.5vh;
+}
+.advertisement .add .circle2 {
+    position:absolute;
+    top:30vh;
+    left:183vh;
+    width:7vh;
+    height:7vh;
+    border-radius: 3.5vh;
+    background-color:#A6D7D0;
+}
+.advertisement .add .circle2 i{
+    margin:.5vh 0 0 2vh;
+}
+                                                        /* end of accessories */
+                                 /* ##################################################################### */
+                                                      /* types */
+.types{
+    /* background-color: red; */
+    margin-left:1%;
+    padding-top:2vh;
+    cursor: pointer;
+}
+.types .type{
+    width:15vh;
+    height:15vh;
+    border-radius:8vh;
+    background-color:transparent;
+    border:.4vh solid #FAF297;
+    margin-left:1.5%;
+    float:left;
+}
+.types .type img{
+    width:15vh;
+    height:15vh;
+    border-radius:8vh; 
+}
+.types .type p{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:1vh;
+}
+
+
+                                                    /* end of types */
+                                 /* ##################################################################### */
+                                                      /* hot deals */
+.deals .hot p{
+    text-transform: capitalize;
+    color:black;
+    margin:15vh 0 3vh 2%;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.deals .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    cursor: pointer;
+}
+.deals .products1 img{
+    width:100%;
+    height:38vh;
+}
+.deals .products1 p{
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.deals .products1 h4{
+    margin-top:2vh
+}
+.deals .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.deals .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.deals .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.deals .products1 .stars p{
+    color:#F5A523;
+}
+
+                                                    /* end of hot deals */
+                                 /* ##################################################################### */
+                                                    /*  discounts */
+
+.discounts{
+    margin:25vh 0 0 5vh;
+    cursor: pointer;
+}                              
+.discounts .discount1{
+    float:left;
+    width:45%;
+    height:30vh;
+}
+.discounts .discount2{
+    float:left;
+    width:45%;
+    height:30vh;
+    margin-left:4%;
+}
+                                                    /* end of discounts */
+                                 /* ##################################################################### */
+                                                    /*  tech devices */
+.Tech_devices .tech {
+    width:20vh;
+    height:3vh;
+    float:left;
+    margin-top:13vh;
+}
+.Tech_devices  .tech p{
+    text-align:center;
+    margin-top:.75vh;
+    font-size:19px;
+    font-weight:bold
+}
+.Tech_devices .shop {
+    width:14vh;
+    height:3vh;
+    float:right;
+    margin-top:13vh;
+    /* margin-left:6vh; */
+    border:black .2vh solid;
+    cursor: pointer;
+}
+.Tech_devices  .shop p{
+    text-align:center;
+    margin-top:.75vh;
+    font-size:13px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.Tech_devices .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    margin-top:6vh;
+    cursor: pointer;
+}
+.Tech_devices .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Tech_devices .products1 .code{
+    border:.2vh solid #3866DF;
+}
+.Tech_devices .products1 .code p{
+    text-transform: uppercase;
+    font-size:11px;
+    padding:.3vh;
+    color:#446FE1;
+}
+.Tech_devices .products1 p{
+    padding-top:1vh;
+    color:#3866DF;
+    line-height:1.6;
+    font-size:13px;
+}
+.Tech_devices .products1 h4{
+    margin-top:2vh
+}
+.Tech_devices .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Tech_devices .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Tech_devices .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Tech_devices .products1 .stars p{
+    color:#F5A523; 
+}
+
+                                                    /* end of tech devices */
+                                 /* ##################################################################### */
+                                                    /*  discounts2 */
+.discounts2{
+    float:left;
+    padding-top:30vh;
+    padding-BOTTOM:0vh;
+    cursor: pointer;
+    margin-left:4vh;
+}
+.discounts2 .first_layer{
+    float:left;
+    width:32%;
+    height:35vh;
+    margin-left:2vh;
+}
+.discounts2 .second_layer{
+    float:left;
+    width:45%;
+    height:40vh;
+    margin-left:9vh;
+}
+                                       /* end of discounts2 */
+                                 /* ##################################################################### */
+                                                    /* Electronic essentials */
+
+.Electronic_essentials .tech {
+    width:30vh;
+    height:3vh;
+    float:left;
+    margin-top:2vh; 
+}
+.Electronic_essentials  .tech p{
+    text-align:center;
+    margin-top:.75vh;
+    font-size:19px;
+    font-weight:bold
+}
+.Electronic_essentials .shop {
+    width:14vh;
+    height:3vh;
+    float:right;
+    margin-top:2vh;
+    cursor: pointer;
+    border:black .2vh solid 
+}
+.Electronic_essentials .shop p{
+    text-align:center;
+    margin-top:.75vh;
+    font-size:13px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.Electronic_essentials .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    margin-top:3vh;
+    cursor: pointer;
+}
+.Electronic_essentials .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Electronic_essentials .products1 .code{
+    border:.2vh solid #3866DF;
+}
+.Electronic_essentials .products1 .code p{
+    text-transform: uppercase;
+    font-size:11px;
+    padding:.3vh;
+    color:#446FE1;
+}
+.Electronic_essentials .products1 p{
+    padding-top:1vh;
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.Electronic_essentials .products1 h4{
+    margin-top:2vh
+}
+.Electronic_essentials .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Electronic_essentials .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Electronic_essentials .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Electronic_essentials .products1 .stars p{
+    color:#F5A523;
+}
+
+                                                         /* end of Electronic essentials */
+                                 /* ##################################################################### */
+                                                                 /* discounts3 */
+ .discounts3{
+    float:left;
+    padding-top:50vh;
+    padding-BOTTOM:1vh;
+    margin-top:10vh;
+    margin-left:4vh;
+    cursor: pointer;
+}
+.discounts3 .first_layer{
+    float:left;
+    width:32%;
+    height:20vh;
+    margin-left:2vh;
+}
+                                                            /* end of discounts3  */
+                                 /* ##################################################################### */
+                                                                 /* brands */
+.brands p{
+    font-size:25px;
+    margin-top:15vh;
+    color:black;
+    margin-bottom: -5vh; 
+}
+.brands .my_brands{
+    margin-left:7vh;
+}
+.brands .my_brands div{
+    float:left;
+    width:15%;
+    margin-left:2vh;
+    margin-top:7vh;
+    cursor: pointer;
+}
+                                                                 /* end of brands   */
+                                         /* ##################################################################### */
+                                                                 /* discounts4 */
+.discounts4{
+    margin:0vh 0 0 5vh;
+    cursor: pointer;
+}                              
+.discounts4 .discount1{
+    float:left;
+    width:45%;
+    height:20vh; 
+}
+.discounts4 .discount2{
+    float:left;
+    width:45%;
+    height:20vh;
+    margin-left:8%;
+}
+                                                               /* end of discounts4   */
+                                         /* ##################################################################### */
+                                                                 /*Fashion_picks  */
+ .Fashion_picks .hot p{
+    text-transform: capitalize;
+    color:black;
+    margin:15vh 0 3vh 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Fashion_picks .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    cursor: pointer;
+}
+.Fashion_picks .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Fashion_picks .products1 p{
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.Fashion_picks .products1 h4{
+    margin-top:2vh
+}
+.Fashion_picks .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Fashion_picks .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Fashion_picks .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Fashion_picks .products1 .stars p{
+    color:#F5A523;
+}
+                                                                 /* end of Fashion_picks   */
+                                         /* ##################################################################### */
+                                                                 /*  advertisement2 */
+.advertisement2{
+    margin-top: 25vh;
+    cursor: pointer;
+}
+.advertisement2 .add {
+    width:100%;
+    height:30vh; 
+}
+.advertisement2 .add img{
+    width:100%;
+    height:30vh;
+    position:relative;
+}
+                                                                 /* end of advertisement2   */
+                                         /* ##################################################################### */
+                                                                 /*  makeup */
+.makeup {
+    padding-top:7vh;
+    cursor: pointer;
+    
+}
+.makeup .girls{
+    float:left;
+    margin-left:3vh;
+}
+.makeup .girls img{
+    margin-left:2vh;
+}
+.makeup .products{
+    float:left;
+    margin-left:5vh 
+}
+
+.makeup .advertisement{
+    float:left;
+    margin-left:3vh
+}
+
+.makeup .advertisement img{
+    margin-left:1vh
+}
+                                                          /* end of makeup   */
+                                         /* ##################################################################### */
+                                                                 /*  Beauty_picks */
+.Beauty_picks .hot p{
+    text-transform: capitalize;
+    color:black;
+    margin:3vh 0 1vh 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Beauty_picks .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    cursor: pointer;
+}
+.Beauty_picks .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Beauty_picks .products1 p{
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.Beauty_picks .products1 h4{
+    margin-top:2vh
+}
+.Beauty_picks .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Beauty_picks .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Beauty_picks .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Beauty_picks .products1 .stars p{
+    color:#F5A523;
+}
+                                                         /* end of Beauty_picks   */
+                                         /* ##################################################################### */
+                                                                 /*  .discounts3 */
+.discounts3{
+    float:left;
+    padding-top:20vh;
+    padding-BOTTOM:0vh;
+    cursor: pointer;
+    margin-left:4vh;
+}
+.discounts3 .first_layer{
+    float:left;
+    width:32%;
+    height:35vh;
+    margin-left:2vh;
+}
+.discounts3 .second_layer{
+    float:left;
+    width:45%;
+    height:40vh;
+    margin-left:9vh;
+}
+                                                            /* end of discounts3   */
+                                         /* ##################################################################### */
+                                                                 /*  Top home picks */
+.Top_home_picks .hot p{
+    text-transform: capitalize;
+    color:black;
+    margin:10vh 0 1vh 2%;
+    font-weight: bold;
+    font-size: 18px;  
+}
+.Top_home_picks .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    cursor: pointer;
+}
+.Top_home_picks .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Top_home_picks .products1 p{
+    
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.Top_home_pickss .products1 h4{
+    margin-top:2vh
+}
+.Top_home_picks .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Top_home_picks .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Top_home_picks .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Top_home_picks .products1 .stars p{
+    color:#F5A523;
+
+}
+.Top_home_picks .products1 .code{
+    border:.2vh solid #3866DF;
+}
+.Top_home_picks .products1 .code p{
+    text-transform: uppercase;
+    font-size:11px;
+    padding:.3vh;
+    color:#446FE1;
+}
+                                                            /* end of  Top home picks */
+                                         /* ##################################################################### */
+                                                                 /*  discounts4 */
+.discounts4{
+    float:left;
+    padding-top:13vh;
+    padding-bottom:5vh;
+    cursor: pointer;
+}
+.discounts4 .second_layer{
+    float:left;
+    margin-left:2vh;
+}
+.discounts4 .first_layer{
+    float:left;
+    margin-left:1.5vh;
+}                                                            /* end of discounts4 */
+                                         /* ##################################################################### */
+                                                                 /* Supermarket_offers  */
+.Supermarket_offers .hot p{
+    text-transform: capitalize;
+    color:black;
+    margin:15vh 0 1vh 2%;
+    font-weight: bold;
+    font-size: 18px;  
+}
+.Supermarket_offers .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    cursor: pointer;
+}
+.Supermarket_offers .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Supermarket_offers .products1 p{
+    
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.Supermarket_offers .products1 h4{
+    margin-top:2vh
+}
+.Supermarket_offers .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Supermarket_offers .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Supermarket_offers .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Supermarket_offers .products1 .stars p{
+    color:#F5A523;
+}
+
+                                                            /* end of  Supermarket_offers */
+                                         /* ##################################################################### */
+                                                                 /*  discounts5 */
+.discounts5{
+    float:left;
+    padding-top:20vh;
+    padding-bottom:5vh;
+    margin-left:4vh;
+    cursor: pointer;
+}
+.discounts5 .second_layer{
+    float:left;
+    /* width:45%; */
+    /* height:40vh; */
+    margin-left:2vh;
+}
+.discounts5 .first_layer{
+    float:left;
+    /* width:32%; */
+    /* height:35vh; */
+    margin-left:1.5vh;
+}
+                                                            /* end of  discounts5 */
+                                         /* ##################################################################### */
+                                                                 /* Baby_picks  */
+.Baby_picks .hot p{
+    text-transform: capitalize;
+    color:black;
+    margin:15vh 0 1vh 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Baby_picks .products1{
+    width:12%;
+    height:38vh;
+    float:left;
+    margin-left:2%;
+    cursor: pointer;
+}
+.Baby_picks .products1 img{
+    width:100%;
+    height:38vh;
+}
+.Baby_picks .products1 p{
+    color:#6B6F7A;
+    line-height:1.6;
+    font-size:13px;
+}
+.Baby_picks .products1 h4{
+    margin-top:2vh
+}
+.Baby_picks .products1 .express{
+    width:9vh;
+    height:4vh
+}
+.Baby_picks .products1 .express img{
+    width:9vh;
+    height:4vh;
+    margin-top:3vh;
+    float:left;
+}
+.Baby_picks .products1 .stars i{
+    color:#F5A523;
+    margin-left:4vh;
+    float:left;
+}
+.Baby_picks .products1 .stars p{
+    color:#F5A523;
+}
+                                                        /* end of  Baby_picks */
+                                         /* ##################################################################### */
+                                                                 /*  discounts6  */
+.discounts6{
+    float:left;
+    padding-top:25vh;
+    padding-bottom:5vh;
+    margin-left:4vh;
+    cursor: pointer;
+}
+.discounts6 .first_layer{
+    float:left;
+    margin-left:1.5vh;
+}
+                                                            /* end of  discounts6 */
+                                         /* ##################################################################### */
+                                                                 /*  brands2  */
+.brands2 p{
+    color:black;
+    font-size:22px;
+}
+.brands2 .logoes{
+    float:left;
+    cursor: pointer;  
+}
+.brands2 .logoes img{
+    width:12%;
+    height:10vh;
+    margin-left:2%;
+    margin-top:1%;
+}
+                                                            /* end of  discounts6 */
+                                         /* ##################################################################### */
+.line_hr1{
+    width:100%;
+    height:.2vh;
+    background-color: #E2E5F1;
+    margin-top:2vh
+}
+                                    /* ##################################################################### */
+                                                                /* contact */
+.contact{
+    background-color: red;
+}
+.contact .left {
+    margin-top:3vh;
+    margin-left:2vh;
+    float:left;
+    width:60%;
+    cursor: pointer;
+}
+.contact .left h3{
+    color:#404553;
+}
+.contact .left p{
+    margin-top:1vh;
+    font-size:13px;
+    color:#7E859B;
+}
+.contact .right {
+    margin-top:3vh;
+    cursor: pointer;
+    float:left;
+    width:38%;
+}
+.contact .right :hover{
+    opacity:.7
+}
+.contact .right .first{
+    float:left;
+    width:30%;
+    margin-left:1%;
+}
+.contact .right .first .border {
+    width:3vh;
+    height:3vh;
+    border-radius: 2vh;
+    border:green solid .2vh;
+    float:left;
+    margin-right:2vh;
+}
+.contact .right .first .border i{
+    margin-left:.39vh;
+    margin-top:.44vh
+}
+.contact .right .first p{
+    font-size:11px;
+    color:#7E859B; 
+}
+
+.line_hr2{
+    width:100%;
+    height:.2vh;
+    background-color: #E2E5F1;
+    margin-top:11.5vh
+}
+                                    /* ##################################################################### */
+                                                                /* type_of_products */
+.type_of_products  {
+    margin:3vh 0 0 -9vh;
+    float:left;
+    cursor: pointer;
+}
+.type_of_products   ul{
+    list-style:none;
+    float:left;
+    margin-left:11vh;
+    padding-bottom: 10vh;
+}
+.type_of_products   ul li{
+    line-height:1.8;
+    color:#6F6673;
+}
+ .social_media .apps{
+    width:50%;
+    float:left;
+}
+ .social_media .apps p{
+    font-weight: bold;
+    color:black;
+    margin-left:40%;
+}
+.social_media .apps img{
+    width:15vh;
+    height:5vh;
+    margin-left:1%;
+    border-radius:.7vh;
+}
+.social_media .apps .img {
+    margin-left:31%;
+    margin-top: 1%;
+}
+.social_media .icons p{
+    font-weight: bold;
+    color:black;
+    margin-left:68%;
+}
+.social_media .icons .circles{
+    margin-left:65%;
+    margin-top: 1vh;
+}
+.social_media .icons .circles .circle{
+    width:5vh;
+    height:5vh;
+    border-radius: 5vh;
+    background-color:#FEEE00;
+    float:left;
+    margin-left:3%;
+}
+.social_media .icons .circles .circle i{
+    margin-left:1.5vh;
+    margin-top:1.3vh;
+}
+.social_media{
+    padding-bottom: 10vh;
+}
+
+                                                            /* end of  type_of_products */
+                                         /* ##################################################################### */
+                                                                 /*  footer  */
+footer{
+    background-color: #F7F7FA;
+    height:10vh;
+}
+footer .left {
+    float:left;
+    width:20%;
+    cursor: pointer;
+}
+footer .left p{
+    font-size:13px;
+    color:#7E859B;
+    margin-top:5vh ;
+    margin-left:5vh;
+}
+footer .middle{
+    float:left;
+    width:20%;
+    margin-left:25vh;
+    cursor: pointer;
+}
+footer .middle img{
+    width:3vh;
+    height:3vh;
+    margin-top:4vh ;
+    margin-left:4vh;
+    float:left;
+    filter:grayscale(100%)
+}
+footer .right{
+    float:left;
+    margin-top:4vh ;
+    cursor: pointer;
+}
+footer .right ul{
+    list-style:none;
+    margin-left:13vh ;
+}
+footer .right ul li{
+    float:left;
+    margin-left:3vh ;
+    font-size: 13px;
+}
+                                                                        /* the end */
+                                    /* ######################################################################################## */
+                                    /* ######################################################################################## */
+                                    /* ######################################################################################## */
+                                    /* ######################################################################################## */
+                                    /* ######################################################################################## */
